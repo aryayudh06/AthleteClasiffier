@@ -1,0 +1,136 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #1e1e1e;
+  border-bottom: 2px solid #4caf50;
+}
+
+.navbar .navbar-brand h1 {
+  color: #4caf50;
+  font-size: 2rem;
+}
+
+.card {
+  background-color: #1e1e1e;
+}
+
+.card-wrapper {
+  margin: 3% 0;
+}
+
+.navbar {
+  background-color: #121212;
+}
+
+.custom-circle-image {
+  width: 12vw;
+  height: 12vw;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.custom-circle-image:hover {
+  transform: scale(1.1);
+}
+
+.custom-circle-image img {
+  object-fit: cover;
+}
+
+.card-title {
+  letter-spacing: 1.5px;
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.dropzone {
+  border-style: dashed;
+  border-color: #4caf50;
+  border-radius: 8px;
+  background-color: #1e1e1e;
+  padding: 20px;
+  text-align: center;
+}
+
+.dropzone .dz-message {
+  color: #4caf50;
+  font-size: 1.2rem;
+}
+
+.dropzone img {
+  filter: brightness(0) invert(1);
+}
+
+.btn-success {
+  background-color: #4caf50;
+  border-color: #4caf50;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.error {
+  font-size: 1.5rem;
+  color: #ff5252;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #ff5252;
+  border-radius: 8px;
+  background-color: #1e1e1e;
+}
+
+#classTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+#classTable td,
+#classTable th {
+  border: 1px solid #4caf50;
+  padding: 10px;
+}
+
+#classTable th {
+  text-align: left;
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+#classTable tr:nth-child(even) {
+  background-color: #2e2e2e;
+}
+
+#classTable tr:hover {
+  background-color: #3a3a3a;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #1e1e1e;
+  color: #4caf50;
+}
