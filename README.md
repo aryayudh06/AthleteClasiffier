@@ -1,4 +1,4 @@
-# Sports Classifier
+# Athlete Classifier
 
 ## General Description
 
